@@ -6,3 +6,11 @@ A GM must be in game for the token to get deleted.
 
 **This module is inherently insecure, and opens an exploit that can allow malicious users to delete tokens they do not own. Do not use
 this module with players you do not trust.**
+
+## Install
+
+Enter this URL into the Install Module Manifest URL field: 
+
+```
+https://raw.githubusercontent.com/corvimae/fvtt-self-token-delete/master/module.json
+```
