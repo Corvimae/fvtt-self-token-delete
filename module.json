@@ -3,12 +3,12 @@
   "title": "Self Token Delete",
   "description": "Allows users to delete tokens they own from a scene.",
   "author": "Corvimae",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.6.4",
   "compatibleCoreVersion": "0.6.4",
   "url": "https://github.com/corvimae/fvtt-self-token-delete",
   "manifest": "https://raw.githubusercontent.com/corvimae/fvtt-self-token-delete/master/module.json",
-  "download": "https://github.com/Corvimae/fvtt-self-token-delete/archive/1.0.0.zip",
+  "download": "https://github.com/Corvimae/fvtt-self-token-delete/archive/1.0.1.zip",
   "esmodules": [
     "modules/selfTokenDelete.js"
   ],

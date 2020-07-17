@@ -1,6 +1,6 @@
 Hooks.on('ready', () => {
   document.body.addEventListener('keydown', event => {
-    if (event.key === 'Backspace') {
+    if (event.key === 'Backspace' && document.activeElement?.tagName === 'BODY') {
       game.socket.emit('module.self-token-delete', {
         event: 'request-deletion',
         tokens: canvas.tokens.controlled.filter(token => token.owner).map(token => ({
